@@ -1,0 +1,8 @@
+﻿<Window x:Class="ZooScenario.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Object-Oriented Programming 1: Zoo" Height="330" Width="440">
+    <Grid>
+        <Button x:Name="assignment12Button" Content="1.2" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="200" Height="23" Click="assignment12Button_Click"/>
+    </Grid>
+</Window>
