@@ -38,16 +38,35 @@ namespace ZooScenario
         {
             
             // Create an instance of the Zoo class.
+            Zoo comoZoo = new Zoo();
 
             // Set field values of the zoo.
+            comoZoo.Capacity = 1000;
+            comoZoo.Name = "Como Zoo";
+            comoZoo.LadiesRoom = new Restroom();
+            comoZoo.MensRoom = new Restroom();
+            comoZoo.TicketBooth = new Booth();
 
             // Set field values of the ladies' restroom.
+            comoZoo.LadiesRoom.Capacity = 4;
+            comoZoo.LadiesRoom.Gender = "Female";
+            comoZoo.LadiesRoom.IsOccupied = false;
 
             // Set field values of the men's restroom.
+            comoZoo.MensRoom.Capacity = 4;
+            comoZoo.MensRoom.Gender = "Male";
+            comoZoo.MensRoom.IsOccupied = true;
 
             // Set field values of the ticket booth.
+            comoZoo.TicketBooth.ItemCountSold = 236;
+            comoZoo.TicketBooth.ItemPrice = 15.00m;
+            comoZoo.TicketBooth.ItemType = "Ticket";
+            comoZoo.TicketBooth.MoneyBalance = 3640.25m;
+            comoZoo.TicketBooth.Attendant = new Employee();
 
             // Set field values of the ticket booth attendant.
+            comoZoo.TicketBooth.Attendant.Name = "Sam";
+            comoZoo.TicketBooth.Attendant.Number = 42;
         }
     }
 }

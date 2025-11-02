@@ -3,6 +3,11 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Object-Oriented Programming 1: Zoo" Height="330" Width="440">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="293*"/>
+            <ColumnDefinition Width="33*"/>
+            <ColumnDefinition Width="115*"/>
+        </Grid.ColumnDefinitions>
         <Button x:Name="assignment12Button" Content="1.2" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="200" Height="23" Click="assignment12Button_Click"/>
     </Grid>
 </Window>
