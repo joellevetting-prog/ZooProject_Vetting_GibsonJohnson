@@ -36,5 +36,15 @@ namespace ZooScenario
         /// The ticket booth.
         /// </summary>
         public Booth TicketBooth;
-    }
+
+        /// <summary>
+        /// The birthing room
+        /// </summary>
+        public BirthingRoom B168;
+
+        /// <summary>
+        /// The vending machine
+        /// </summary>
+        public VendingMachine AnimalSnackMachine;
+    } 
 }

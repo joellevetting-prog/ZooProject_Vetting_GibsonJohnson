@@ -36,37 +36,78 @@ namespace ZooScenario
         /// <param name="e">The event arguments for the event.</param>
         private void assignment12Button_Click(object sender, RoutedEventArgs e)
         {
-            
             // Create an instance of the Zoo class.
-            Zoo comoZoo = new Zoo();
+            Zoo ComoZoo = new Zoo();
 
             // Set field values of the zoo.
-            comoZoo.Capacity = 1000;
-            comoZoo.Name = "Como Zoo";
-            comoZoo.LadiesRoom = new Restroom();
-            comoZoo.MensRoom = new Restroom();
-            comoZoo.TicketBooth = new Booth();
-
+            ComoZoo.Capacity = 1000;
+            ComoZoo.Name = "Como Zoo";
+            ComoZoo.LadiesRoom = new Restroom();
+            ComoZoo.MensRoom = new Restroom();
+            ComoZoo.TicketBooth = new Booth();
+            
             // Set field values of the ladies' restroom.
-            comoZoo.LadiesRoom.Capacity = 4;
-            comoZoo.LadiesRoom.Gender = "Female";
-            comoZoo.LadiesRoom.IsOccupied = false;
+            ComoZoo.LadiesRoom.Capacity = 4;
+            ComoZoo.LadiesRoom.Gender = "Female";
+            ComoZoo.LadiesRoom.IsOccupied = false;
 
             // Set field values of the men's restroom.
-            comoZoo.MensRoom.Capacity = 4;
-            comoZoo.MensRoom.Gender = "Male";
-            comoZoo.MensRoom.IsOccupied = true;
+            ComoZoo.MensRoom.Capacity = 4;
+            ComoZoo.MensRoom.Gender = "Male";
+            ComoZoo.MensRoom.IsOccupied = true;
 
             // Set field values of the ticket booth.
-            comoZoo.TicketBooth.ItemCountSold = 236;
-            comoZoo.TicketBooth.ItemPrice = 15.00m;
-            comoZoo.TicketBooth.ItemType = "Ticket";
-            comoZoo.TicketBooth.MoneyBalance = 3640.25m;
-            comoZoo.TicketBooth.Attendant = new Employee();
+            ComoZoo.TicketBooth.ItemCountSold = 236;
+            ComoZoo.TicketBooth.ItemPrice = 15.00m;
+            ComoZoo.TicketBooth.ItemType = "Ticket";
+            ComoZoo.TicketBooth.MoneyBalance = 3640.25m;
+            ComoZoo.TicketBooth.Attendant = new Employee();
 
             // Set field values of the ticket booth attendant.
-            comoZoo.TicketBooth.Attendant.Name = "Sam";
-            comoZoo.TicketBooth.Attendant.Number = 42;
+            ComoZoo.TicketBooth.Attendant.Name = "Sam";
+            ComoZoo.TicketBooth.Attendant.Number = 42;
+        }
+
+        private void assignment2132Button_Click(object sender, RoutedEventArgs e)
+        {
+            // Create an instance of the Zoo class.
+            Zoo ComoZoo = new Zoo();
+
+            // Set field values of the zoo.
+            ComoZoo.Capacity = 1000;
+            ComoZoo.Name = "Como Zoo";
+            ComoZoo.MensRoom = new Restroom();
+            ComoZoo.LadiesRoom = new Restroom();
+            ComoZoo.TicketBooth = new Booth();
+            ComoZoo.B168 = new BirthingRoom();
+            ComoZoo.AnimalSnackMachine = new VendingMachine();
+
+            // Set field values of the ladies' restroom.
+            ComoZoo.LadiesRoom.Capacity = 4;
+            ComoZoo.LadiesRoom.Gender = "Female";
+            ComoZoo.LadiesRoom.IsOccupied = false;
+
+            // Set field values of the men's restroom.
+            ComoZoo.MensRoom.Capacity = 4;
+            ComoZoo.MensRoom.Gender = "Male";
+            ComoZoo.MensRoom.IsOccupied = true;
+
+            // Set filed values for the animal snack machine
+            ComoZoo.AnimalSnackMachine.MoneyBalance = 42.75m;
+
+            // Set field values of the birthing room.
+            ComoZoo.B168.Temperature = 77.00;
+
+            // Set field values of the ticket booth.
+            ComoZoo.TicketBooth.ItemCountSold = 236;
+            ComoZoo.TicketBooth.ItemPrice = 15.00m;
+            ComoZoo.TicketBooth.ItemType = "Ticket";
+            ComoZoo.TicketBooth.MoneyBalance = 3640.25m;
+            ComoZoo.TicketBooth.Attendant = new Employee();
+
+            // Set field values of the ticket booth attendant.
+            ComoZoo.TicketBooth.Attendant.Name = "Sam";
+            ComoZoo.TicketBooth.Attendant.Number = 42;
         }
     }
 }

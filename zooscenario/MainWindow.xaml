@@ -9,5 +9,6 @@
             <ColumnDefinition Width="115*"/>
         </Grid.ColumnDefinitions>
         <Button x:Name="assignment12Button" Content="1.2" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="200" Height="23" Click="assignment12Button_Click"/>
+        <Button x:Name="assignment2132Button" Content="Assignment 2.1" HorizontalAlignment="Left" Margin="10,64,0,0" VerticalAlignment="Top" Height="25" Width="200" Click="assignment2132Button_Click"/>
     </Grid>
 </Window>
