@@ -36,9 +36,7 @@ namespace ZooScenario
         /// <param name="e">The event arguments for the event.</param>
         private void assignment12Button_Click(object sender, RoutedEventArgs e)
         {
-            // 1) Define variable    3) Assign new object to variable    2) Create zoo object
-            // Zoo comoZoo           =                                   new Zoo();
-
+            
             // Create an instance of the Zoo class.
 
             // Set field values of the zoo.
